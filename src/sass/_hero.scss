@@ -1,0 +1,45 @@
+.hero-section .container {
+  display: flex;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: calc(69 / 56);
+  color: var(--main-text-color);
+  margin-bottom: 32px;
+}
+
+.hero-text {
+  font-size: 20px;
+  line-height: calc(28 / 20);
+  color: var(--main-text-color);
+  margin-bottom: 52px;
+}
+
+.hero-btn {
+  padding: 18px 24px;
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  background-color: var(--secondary-color);
+}
+
+.hero-text-wrapper {
+  padding-top: 152px;
+  padding-bottom: 134px;
+}
+
+.hero-section,
+.about {
+  background-color: var(--bgd-color);
+}
