@@ -1,3 +1,50 @@
-.hhh {
-    background-color: aqua;
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 31px;
+}
+
+.nav-link {
+  color: var(--main-text-color);
+  font-size: 18px;
+  line-height: 1.22;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  display: block;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.header-btn {
+  padding: 14px 20px;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  background-color: transparent;
+  margin-left: auto;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
 }
