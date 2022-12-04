@@ -1,1 +1,0 @@
-{"mappings":"AEAA","sources":["index.6cba6c16.css","src/sass/index.scss","src/sass/_header.scss"],"sourcesContent":[".hhh {\n  background-color: #0ff;\n}\n\n/*# sourceMappingURL=index.6cba6c16.css.map */\n","@import './header';",".hhh {\n    background-color: aqua;\n}"],"names":[],"version":3,"file":"index.6cba6c16.css.map"}
