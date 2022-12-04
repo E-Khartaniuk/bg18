@@ -1,0 +1,43 @@
+.about .container {
+  display: flex;
+}
+
+.about-wrapper {
+  padding-top: 164px;
+  padding-bottom: 104px;
+  padding-left: 102px;
+}
+
+.about-title {
+  font-size: 32px;
+  line-height: 1.4;
+  color: var(--main-text-color);
+  font-weight: 400;
+  margin-bottom: 23px;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--main-text-color);
+  text-align: justify;
+  margin-bottom: 35px;
+}
+
+.about-btn {
+  padding: 18px 45px;
+  color: var(--accent-color);
+  font-size: 18px;
+  line-height: 1.35;
+  text-transform: uppercase;
+
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  background: transparent;
+}
+
+.about-btn:focus,
+.about-btn:hover {
+  color: var(--secondary-color);
+  background: var(--accent-color);
+}
